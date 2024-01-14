@@ -19,4 +19,5 @@ def closeStrings(word1, word2):
     
 output = closeStrings("a", "aa")
 print(output)
-        
+
+#find frequency of each letter sort them and check if they are equal in both strings
