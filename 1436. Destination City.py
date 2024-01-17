@@ -3,10 +3,10 @@ def destCity(paths):
         return paths[0][1]
     for i in range(len(paths)):
         path = paths[:i]+paths[i+1:]
-        print(path)
+        #print(path)
         for j in path:
-            print(paths[i][1])
-            print(j)
+            #print(paths[i][1])
+            #print(j)
             if paths[i][1]!=j[0]:
                 destination = True
                 continue
